@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 qwerty
+=======
+asad
+>>>>>>> dev
+asadasad
