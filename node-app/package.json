@@ -1,0 +1,28 @@
+{
+  "name": "haisum-tkxel-devops-assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaisumRiaz/haisum-tkxel-devops-assignment1.git"
+  },
+  "author": "Haisum Riaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaisumRiaz/haisum-tkxel-devops-assignment1/issues"
+  },
+  "homepage": "https://github.com/HaisumRiaz/haisum-tkxel-devops-assignment1#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.0"
+  },
+  "devDependencies": {
+    "jest-sonar-reporter": "^2.0.0",
+    "sonarqube-scanner": "^2.8.1",
+    "supertest": "^6.2.3"
+  }
+}
