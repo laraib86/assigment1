@@ -1,0 +1,20 @@
+pipeline {
+  agent any
+  stages {
+      stage ('Git Clone')
+      {
+          steps
+          {
+              url: 'https://github.com/laraib86/assigment1'
+          }
+      }
+
+    stage('SonarQube Analysis') {
+			steps {
+		   sh 'node sonar-scanner.js'
+			
+		    }
+		}
+
+    
+	}
